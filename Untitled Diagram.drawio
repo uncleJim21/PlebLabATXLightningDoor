@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T22:22:06.877Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="WFeg3I30sFM-aC7tSAxP" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T22:23:57.579Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mNRjrVKJ6-8Ts_ozcq7S" version="21.3.4" type="github">
   <diagram name="Page-1" id="9xXqxLMX3umURaw_fP6i">
     <mxGraphModel dx="585" dy="345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
@@ -35,6 +35,9 @@
         </mxCell>
         <mxCell id="fqgcwcHrW1HRH-oI7dm0-10" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.2_conductor_plug" vertex="1" parent="1">
           <mxGeometry x="300" y="600" width="53" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="fqgcwcHrW1HRH-oI7dm0-13" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="560" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
