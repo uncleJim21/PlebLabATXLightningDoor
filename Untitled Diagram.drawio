@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T22:42:54.870Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="gwWtYw4yAuQQy-kn_Nc2" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T23:09:10.136Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="c53h1eJ38ySRZg30SnIj" version="21.3.4" type="github">
   <diagram name="Page-1" id="9xXqxLMX3umURaw_fP6i">
-    <mxGraphModel dx="1571" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+    <mxGraphModel dx="1549" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,7 +172,7 @@
         <mxCell id="fqgcwcHrW1HRH-oI7dm0-47" value="Door Strike/Actuator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="187" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="fqgcwcHrW1HRH-oI7dm0-50" value="Pleblab Lightning Door Block Diagram" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=34;" vertex="1" parent="1">
+        <mxCell id="fqgcwcHrW1HRH-oI7dm0-50" value="PlebLab Lightning Door Block Diagram" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=34;" vertex="1" parent="1">
           <mxGeometry x="230" y="50" width="600" height="90" as="geometry" />
         </mxCell>
       </root>
