@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-25T23:14:43.920Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="oXydIx-AHbBa_MgbxTTJ" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T17:26:57.465Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="BohX0RI3AUQv3Mhr8e-o" version="21.3.4" type="github">
   <diagram name="Page-1" id="9xXqxLMX3umURaw_fP6i">
-    <mxGraphModel dx="1549" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,8 +172,14 @@
         <mxCell id="fqgcwcHrW1HRH-oI7dm0-47" value="Door Strike/Actuator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="870" y="187" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="fqgcwcHrW1HRH-oI7dm0-50" value="&lt;b style=&quot;font-size: 45px;&quot;&gt;PlebLab Lightning Door Block Diagram&lt;/b&gt;" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=45;" vertex="1" parent="1">
-          <mxGeometry x="230" y="10" width="600" height="130" as="geometry" />
+        <mxCell id="fqgcwcHrW1HRH-oI7dm0-58" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="40" width="800" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fqgcwcHrW1HRH-oI7dm0-50" value="&lt;b style=&quot;font-size: 45px;&quot;&gt;PlebLab Lightning Door Block Diagram&lt;/b&gt;" style="text;html=1;strokeColor=#C73500;fillColor=#fa6800;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=45;" vertex="1" parent="fqgcwcHrW1HRH-oI7dm0-58">
+          <mxGeometry x="200" width="600" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fqgcwcHrW1HRH-oI7dm0-56" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://secure.meetupstatic.com/photos/event/7/b/d/a/600_510811706.jpeg;" vertex="1" parent="fqgcwcHrW1HRH-oI7dm0-58">
+          <mxGeometry width="200" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
