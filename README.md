@@ -50,3 +50,9 @@ It is a simple ESP32 based dev kit that allows you to take advantage of its impr
 - Bitcoin Switch repo: https://github.com/lnbits/bitcoinSwitch
 - Bitcoin Switch Hardware on Amazon links: https://amzn.to/43ilywc
 - Eden Printers - 3D Printed NFC Sign https://www.eden3dprinter.com/shop/nfc-chips
+
+# Collaborators
+- Topher https://github.com/cmdruid
+- Jim https://github.com/uncleJim21
+- Max of Eden Printers https://www.eden3dprinter.com
+- Pleblab https://github.com/PlebLab/PlebLab_Workshops
