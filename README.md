@@ -19,6 +19,7 @@ Lightning door is a custom solution we deployed to make it so that anyone that h
 Ok that's a fancy diagram. What's it all mean and what's it all for? 
 
 Let's walk through the process:
+
 0. The mechanical timer switch establishes "open hours" typically from 930AM-630PM by removing controlling power to bitcoin switch.
 1. The user scans the static LNURL on the QR code/NFC device
 2. The user's wallet resolves the LNURL and makes a request to our LNBits Legends instance
