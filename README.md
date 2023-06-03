@@ -35,9 +35,11 @@ Let's walk through the process:
 # FAQs
 
 **What materials do I need to replicate what you did?**
+There's a list of e-commerce links below you can use.
 - Bare minimum: ESP32 dev kit & access to the Bitcoin switch repo (both links below)
 - Simple commercially available 12V to 5V step down converter
-- We got the neon light at a bitcoin bazaar, gutted the USB part and through careful probing determined the +/-
+- (Optional) Neon light
+- (Optional) Mechanical Timer switch
 
 **How did you know where to probe/do "surgery" to the existing system?**
 Most commercial access control systems are similar. They are usually controlled by a central control board and move a strike (actuated lock) that locks/unlocks the door. We got access to the control board and using safety best practices probed circuits until we discovered which relay output affects change on the front door. We **triple checked** to make sure we knew how the circuit worked then installed a parallel relay that simply creates "or logic" on the existing circuit giving us the opportunity to override the front door control.
