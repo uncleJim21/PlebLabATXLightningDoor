@@ -1,10 +1,46 @@
 # PlebLabATXLightningDoor
-Instructions &amp; Resources for how we set up a lightning payments enabled access control for PlebLab
+Instructions &amp; Resources for how we set up a lightning payments enabled access control for PlebLab.
 
-#Block Diagram
-```
-<iframe frameborder="0" style="width:100%;height:813px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&layers=1&nav=1&title=LightningDoorBlockDiagram.drawio#R7Vxbc6M2FP41nm4f4hHi6sfYSXY7k2TTdZttn3ZkUDANIAoitvPrK4FkG4QTNsGGzDQzu0YHIeBcvnORxEifRevPKUqWN8TD4QgCbz3SL0YQarpush9O2ZQUy9BLgp8Gnui0I8yDZyyIQFDzwMNZpSMlJKRBUiW6JI6xSys0lKZkVe32QMLqXRPkY4Uwd1GoUr8HHl0KqgbA7sQXHPhLeWtbnomQ7C0I2RJ5ZLVH0i9H%2BiwlhJZH0XqGQ849yZjyuqsDZ7dPluKYtrng4V%2FfXblf0u%2Fal29fzshvtheBMx2Kh6Mb%2BcrYYxwQTZLSJfFJjMLLHXWakjz2MB8WsNauzzUhCSNqjPgPpnQjxIlyShhpSaNQnMXrgP61d%2Fw3H2psitbFWoxcNDayEdN0wy86A2Og2ZJSXqpNtoTd1UWrcvkdToMIU5wKospCwdWM5KmLX%2BCb1EWU%2Bpi%2BxF8hfM7UvTsICX3GhD1OumEdUhwiGjxV1Q4J7fW3%2FXbyZQdCxD8jbmGOTyjMxa0%2BGb8ywh%2FE95lsIdDH%2Bj37uQj8gCI%2B3tecJjlt1JJrtGDmXpEsCgM%2FZscu4yhn8%2FQJpzRg9nQuTkSB55VKhLPgGS2K8bgsEhLEtHhfczoyLxql86IK8zvh9agBFcRdKnZXYb646owrkiZYJADrTIzeWj5i9Dv%2BOntdyMNDhqkiwO1DvF2mmiLSaUBddntGnK%2FY4ZIdfLqc33FGgZvATQn7XaAMe78qYq2a9moZUDxPUGEKK4bwVWEfNB9FFAdZbkoDEew2bKtsr%2FbQVkLqch9oHXAkGzE%2BDCKyRneIBtsi2qAATdr%2BTvkV6VWBZQrGkFn4TP5wqIGzgl62qzS7sa9WEOvXi75207hajQab%2B1bHLVCQhQ0Jf5No7fMQa7xIonjsI4pXaAOrSiSxtsDlO5IFNCAccxeEUhKxDiE%2FMUXuo18o7IyEJC2YpD8Ufw14TbkCq7Ce7OlduiTRIs%2F2VHFKchoGMZ5tozKwI7JWRlHsodTjr7eJFoS%2FAGUXp92AyjbkkkHnpC2ogGOBitUnqIAKqDhGuzhLwI8MsrRXAqy3I4%2FeEnnMQSGP%2Fjry7ImibsU4ZHaRckMTh%2BQswu4SxQUpK9z2RZCJAIZb6RRlSWlLD8Gaa8UUh6V7n1OGBlyLCgP2gpR1Kw2fsZ7rexc2pVtVm7JZpGgqVgUbjMo2jyQB%2B8M46krqMqmmLo7%2BmmV1nLqYLc1NG5S5OYq5bWPbe9dt1IRhpCf2AUv76eyEBQ0WgBUjlDIabnJiTnp1fFvD%2FHvfLgfi91ob4rAcn1pCOJ8VZTleNuBH5r0i81cSScW1deGwapml6ahBoNPgro6WV2r9lNqkWms1t2McTa9l7faDpZLysV%2FNJXF6%2BYRLZ9Aq69oWfjlbPZQtt%2FJU3FFDMldNxF6IIyMWLrLXRDEmeTaGP5h78XIeO%2F5IwtzvwKIMrWpRDlQtytRVi4LGsSSmxuAFFN1t33dPdOwlaZXDGYu6H7FMgmPCU9PpQxCGNVL7oKEJ5qoW%2FEBiKi2%2BoYL%2FbpnYDShnNaCcfjSUMxqsyAo56xfswOcHN9tMh3X8o8j7RRd2y22vkX7OTk90cH5zZung7magIu1AittipixYmA0FC61BjMaxxAgHVLCALbOropx2kshNax26OYNycVAmI3vTP5BP%2F3zm0T%2B4IMxGIPgtfiIBe%2F%2Fh5lRSOzuZ8gGa9CPDTaM0Nei%2Bvp0GjHkQXGMfx16miKuPmNuozeZYfcfclsI3Va1j75yvFOAqHKIsC9zCkaCUquQ9%2FlXBrlLiMWuxNgT6W0o8byk1nQLTWkLaflTYIHNJe6vRyQCoVus3pcjlEOWLi6t26qQO5ByYiZQDlYxRBurKxKFq4t%2FxIiPuIx7y7LvWGRSDsTb4chbU%2BwyLqkDQPiyqREXgFSh6B4I4bRFkWAUtqKYsnzQeFd0Fsc8d7O2f3645A3D6xFOVwdqi1M4ubBE4jlPBw%2BEvhIFOn8ZZrTVrLW2zGijs8pf%2FjVMKdaIap86Nc87iNm6jaBPheMgeUqplJx7S0D%2Fc8jR15u47CsMi4TxPEkVwp16Btl3zIeM%2B0FB7aZrXto5We9EUpvRWezlWtgHbzhEMrYICFW2W4QHyPIYZah4%2BICQ6ZBxvKZtAG1bsZvBABNX5nd%2B%2FsfaMeHzhc1H6ur3i8wcefirqX2DFH2IbAA6vvqI3YNVJ6yt6i1VQJ8Cut%2BOQ3nqucljLYXQ1Z%2FmaYL7ku2iAyxinPmOXN2A40jtLV3jRbVLPV95Z1F1XhxGjarXFbMeDK12Fq7sQL0a8Pp9RHkHx8PeWpBE75ryYhSQraN%2FYG296j6ucGlaZTXNap12Eq%2Fe6YvBtk1q1UvLxEkQJcK8joTUoJDTUEr8G7%2Fnul%2BECX4drAjVLTup1hHvHRzZjQHWal9cEvt%2BaujOSZvc0qU1%2FwAlzhXt%2FtQGPPIdhqMWaodui0WV1RjO0qjSGbopSTfcExhcB%2FMLnlZnk2P%2FzTUZxNLhoQm%2BYWT51NKEqex%2B49g6Mstp6%2FGHVYAw1Mi73AhTRr3nPFyEPFm%2B2WtNJ0gPNatIz%2BAlUw%2BzX99sncf6dR8jNzt%2BuOftaQa7XUEBvDMtHYp8A3yIAprn7yD0MxcmILz5b8fLFjMSFaaS9uxzLrrkco3%2BXo86lFJz8c85eGFzzR4jLOesRtP7N%2BZdFpreYxLsW5zeHtt6ZW5t10SagHXMnx1pMbvTivQ%2Fl%2BfB4ib7ROtE%2FUQ6jgVoSs13Ufqq0Ra1if7hiqlTfbuIKA1QTmQ9QVFAzmct1kNESDqd5EHrloaiOglmQunmgLhw4NRJOnMHVSY2GBVFfE76tCYXluij8TOTOI9Ze5M%2FPA3DYtj44n6Kutxdr7OeMdY%2BYDXru0hzxDf59c8%2BphTuaY%2Feth6Ya7ihs4l8ySdq%2F%2Fk%2BjoVZf0q7qlNPIFXg0rjTtU9zusNrjjYz5%2BJ6zs6yIQPiOKsNM1oXK7GLCcsMVn15izqwWSQqFnYakiNYvAuSnKGrcsFWXzWv7s0ZQn9m6CYqNcXubtPj3aJDlgMYtku%2FcfLd3jzItEnQRoRlme5drHiodHlQmCFTtsU6sPS12RMhNpkFUfB3xzd8V8vADygs1OfBVofoSieKG55IKJIUdLynlX3w8LxZkXGXYzVM8jjCmeZJRFpK4Y5c9CbxKloSSjB3gp2JV4JVdaugVi92uEPvH2P3D1ICjaTawxv8k2D%2BKwCvfROlIwKy5%2B1pkGTftPrqpX%2F4H"></iframe>
-```
+# Premise
+Necessity is the mother of invention right? Wrong.
+
+Laziness is the mother of invention.
+
+We got tired of always running down from the second floor to answer the door bell so we did something about it.
+
+Lightning door is a custom solution we deployed to make it so that anyone that has basic understanding of lightning can let themselves into Pleblab without a key. Simply scan the QR code or NFC at the entrance of Pleblab, pay the nominal invoice, and the lightning bolt lights up and the door unlocks:
+
+<img width="684" alt="image" src="https://github.com/uncleJim21/PlebLabATXLightningDoor/assets/96802642/b15366a6-58fd-4885-b445-364ee378b512">
+
+# Block Diagram
+![image](https://github.com/uncleJim21/PlebLabATXLightningDoor/assets/96802642/671531d4-2971-41ff-9887-2c032ae8b094)
+
+# Technical Details
+Ok that's a fancy diagram. What's it all mean and what's it all for? 
+
+Let's walk through the process:
+0. The mechanical timer switch establishes "open hours" typically from 930AM-630PM by removing controlling power to bitcoin switch.
+1. The user scans the static LNURL on the QR code/NFC device
+2. The user's wallet resolves the LNURL and makes a request to our LNBits Legends instance
+3. That instance provides a concrete Bolt11 invoice for them to pay (~180 sats/5 cents)
+4. The user pays the invoice
+5. Our LNBits Legends instance registers that and sends a message over websocket to the Bitcoin Switch
+6. The Bitcoin Switch toggles a digital output for about 15 seconds
+7. The circuitry is configured such that when the digital output triggers it:
+  a. Toggles the relay that controls the door's strike/lock
+  b. Energizes the 12V circuit which powers a step down converter that turns on our 5V USB based neon light
+
+
+# FAQs
+
+**How did you know where to probe/do "surgery" to the existing system?**
+Most commercial access control systems are similar. They are usually controlled by a central control board and move a strike (actuated lock) that locks/unlocks the door.
+
+**What is the Bitcoin Switch?**
+It is a simple ESP32 based dev kit that allows you to take advantage of its impressive built in WiFi chip, GPIO and other peripherals to connect to a websocket &
+
 
 # Resources
-Bitcoin Switch repo: https://github.com/lnbits/bitcoinSwitch
+- Bitcoin Switch repo: https://github.com/lnbits/bitcoinSwitch
+- Bitcoin Switch Amazon links: https://amzn.to/43ilywc
+- Eden Printers - 3D Printed NFC Sign https://www.eden3dprinter.com/shop/nfc-chips
