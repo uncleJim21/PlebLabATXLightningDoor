@@ -20,7 +20,7 @@ Ok that's a fancy diagram. What's it all mean and what's it all for?
 
 Let's walk through the process:
 
-0. The mechanical timer switch establishes "open hours" typically from 930AM-630PM by removing controlling power to bitcoin switch.
+0. The mechanical timer switch establishes "open hours" typically from 930AM-630PM by switching on/off power to bitcoin switch.
 1. The user scans the static LNURL on the QR code/NFC device
 2. The user's wallet resolves the LNURL and makes a request to our LNBits Legends instance
 3. That instance provides a concrete Bolt11 invoice for them to pay (~180 sats/5 cents)
@@ -49,6 +49,11 @@ It is a simple ESP32 based dev kit that allows you to take advantage of its impr
 # Resources
 - Bitcoin Switch repo: https://github.com/lnbits/bitcoinSwitch
 - Bitcoin Switch Hardware on Amazon links: https://amzn.to/43ilywc
+- Mechanical Timer Switch: https://amzn.to/42ltU4U
+- Neon Lightning Lights:
+  - Purple: https://amzn.to/45LN9rb
+  - Yellow: https://amzn.to/3IUhESf
+  - 3 Piece Set: https://amzn.to/3MN1vis
 - Eden Printers - 3D Printed NFC Sign https://www.eden3dprinter.com/shop/nfc-chips
 
 # Collaborators
