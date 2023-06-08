@@ -52,6 +52,7 @@ It is a simple ESP32 based dev kit that allows you to take advantage of its impr
 - Bitcoin Switch repo: https://github.com/lnbits/bitcoinSwitch
 - Bitcoin Switch Hardware on Amazon links: https://amzn.to/43ilywc
 - Mechanical Timer Switch: https://amzn.to/42ltU4U
+- 3.3V Input (Bitcoin Switch Friendly) Relay: https://amzn.to/3P557iz
 - Neon Lightning Lights:
   - Purple: https://amzn.to/45LN9rb
   - Yellow: https://amzn.to/3IUhESf
